@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header h1{
+    padding:10px 100px 10px 50px;
+    font-style: italic;
+    color: yellow
+
+}
+header p:hover{
+    color: rgb(218,165,32);
+    font-style:oblique;
+    text-decoration: underline;
+    font-size:30px ;
+}
+header p{
+    padding: 15px 0px 10px 0px;
+    font-size: 24px;
+    justify-items: end;
+}
+.img_part{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 44%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content:end;
+
+}
+.intro{
+    display: flex;
+    background-color: rgb(241, 92, 97);
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.879);
+    margin-top: 70px;
+    width: 80%;
+    padding-bottom: 10%;
+    align-items: center;
+}
+.txt_part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+body{
+    background-image: url(imgs/pizza.jpg);
+    background-repeat:repeat;
+}
+div h1{
+    font-size: 70px;
+    text-align: center;
+    
+}
+div p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+button{
+    font-size: 30px;
+    background-image: linear-gradient(to right, red , yellow);
+    border: 1px solid yellow ;
+    border-radius: 20%;
+    
+}
